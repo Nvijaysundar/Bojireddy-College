@@ -1,0 +1,197 @@
+Java : 
+
+-> James Gosling
+
+WORA - Write once Run Anywhere
+
+Green Talk -> OAK -> JAVA 
+
+Versions - > Java 22
+
+Java 5 -> Tiger Version(JDK , JRE)
+     8 ->
+     11->
+     17-> LTS (Long Term Support)
+
+
+EDITION of Java: 
+ -> JAVA SE  -> JVM, JRE -> JDK  -> Standalone Application
+  				 
+ -> JAVA EE  -> Servlets, JSP    -> Enterprise Application 
+ 
+ -> JAVA ME  -> IOT, Embedded    -> Native memory (Platform Dependent Codes)
+ 
+ -> JAVA Fx  -> Graphics 
+
+
+why should we have
+
+SBI   -> Java
+
+FrontEnd   BackEnd   Database
+ HTML,CSS    JAVA      MySQL  (1lakh)
+ React       Java   
+
+
+
+
+
+Java : 
+     class
+     object
+     method
+     constructors
+     blocks
+     interface
+     
+     = > Keywords
+
+class : 
+    -> collection of variables, methods, blocks, constructors, 
+       nested classes 
+
+class Class_name{
+     //variables
+     // methods
+     //blocks
+     // constructors
+     main method
+}
+
+-> Class name should be started with upper case (Dev Practice)
+
+
+main method : 
+ -> public static void main(String [] args)
+    {
+     
+    }
+
+ output : 
+   -> 
+      System.out.println()
+      System.out.print()
+      System.out.printf()
+
+
+Data Types : 
+   
+      -> Primitive  - single member
+      -> Non Primitive - Multi member- class, interfaces
+ 
+
+Primitive : 
+  
+  numerical 
+    -> Non floating points(non decimal Values): 
+       => byte	- 1byte		-multimedia types
+       => short	- 2bytes	-multimedia types 
+       => int	- 4bytes	-numerical calculations
+       => long 	- 8bytes	-numerical calculations
+
+             long num = 13546654L;
+
+  -> Floating numbers : 
+     => float   = 4 bytes
+     => double  = 8 bytes
+      
+	 float num = 35486.5875f;
+  
+
+  -> character: 
+      => char - 2 bytes - UNICODE -> Hexa Dec of ASCII
+   		'A' - 'Z'  - 65 - 90
+		'a' - 'z'  - 97 - 122
+  		'0' - '9'  - 48 - 57
+  -> boolean 
+      => boolean - 1 bit - true/false = 1/0
+
+  
+
+variables
+   -> static variables
+        -> declared outside of methods within class with static 	    keyword
+	-> initialized once and can be updated
+        -> accessed by using class name
+	-> will get memory within class /interface
+class Test{
+   static int var = 1000;
+}
+ //Test.var 
+   -> non static variable
+ 		-> instance 
+		   =>
+		-> local 
+
+instance variable - > 
+ -> If a variable is defined outside method within class without static keyword 
+  => will initialize for every object creation
+  => accessed using object
+
+OBJECT : 
+   -> memory created for non primitive datatypes 
+   -> which stores all instance members
+
+Class_name object_name = new Class_name();
+
+  Class Test{
+     int var = 100;
+ }
+
+Test ob = new Test();
+ob.var
+
+Local Variable: 
+   -> if variable declared within methods then it is called as local variable
+
+   -> will get memory while method execution
+   -> accessed directly
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
